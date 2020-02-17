@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style pour le header*/
+body{
+  background-color: white;
+}
+
+
+.Inscription{
+  color: black;
+  font-size: 15px;
+  text-align: right;
+
+}
+
+header{
+  background-color: white;
+  height: 170px;
+  width: 100%;
+}
+
+.logo{
+  color: grey;
+  display: inline;
+  text-decoration: none;
+  font-size: 70px;
+}
+
+
+/* Menu en dessous */
+header nav {
+  list-style-type: none;
+  background-color: #78807C;
+  display: flex;
+  justify-content: center;
+  margin-top: -60px;
+
+
+
+}
+
+header nav li{
+  display: inline-block ;
+  margin: 0px;
+  padding: 0px;
+  width: 190px;
+  height: 40px;
+  border-right: 1px solid #cccccc;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+header nav li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+header nav a:hover{
+  color: black;
+}
+/*
+#about{
+  color: #48f253;
+}
+#about:hover{
+  color: pink;
+}
+*/
+
+
+/* Liste bas de page*/
+li{color:black}
+
